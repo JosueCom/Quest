@@ -32,10 +32,11 @@ class StopButton(tk.Button, UIElement):
         self["bg"] = "#CC2800"
         self["padx"] = 5
         self["pady"] = 5
-        self["activebackground"] = "#00CC28"
+        self["activebackground"] = "#CC8E00"
 
     def stop(self):
         self["text"] = "Stopped"
+        self["bg"] = "#00CC28"
         pass
 
 class Leveler(tk.Scale, UIElement):
